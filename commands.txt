@@ -1,0 +1,82 @@
+public ip-52.221.203.243
+private ip-172.31.29.165
+username-ec2-user
+
+installing git
+yum install git -y 
+git-scm-
+yum is to install a package for centos based machine(close to centos machine we are using)
+yum install and yum update(yum and apt)
+cd /etc/yum.repos.d/
+supriya1201208
+Supriya&1201208
+rR:cT2nAv*14i(W)
+git config --system --add core.username supriya1201208
+git config --system --add core.email supriya1201208
+
+--system etc/gitconfig(server level)(system specific)
+--global ~/gitconfig(user level)(user specific info)
+--local .git/config(within repo or inside code repo)(repo specific info)(higher precedence-always checked first whenever a push has happened)
+
+
+git config --local --add user.name 
+git config --local --add user.email 
+
+git diff --staged
+git blame filename
+ EC2 Default User <ec2-user@ip-172-31-29-165.ap-southeast-1.compute.internal>
+
+git push -u origin master (normally push the current commit but for next time set my remote as upstream branch)
+
+INFINEON\DipSupri
+odc2admin
+maven build tool is not only for languages whichneeds compilation but also for collecting and putting them into a tar file
+cont integration- build + test
+
+cd refs/
+git log only for  commits
+git log -p -2(last 2 commits)
+git log --stat
+git tag version2.5
+gitl log v2.5
+git log test..master # commits reachable from master but not test
+git log tcs1.0..HEAD
+git log commitid1..commitid2
+git log master..test
+git log --since="2 weeks ago"
+git log Makefile #commits that modify Makefile
+git log fs/ #commits taht modify any file under fs/
+git log -S'foo' #commits that add or remove any file data
+git log --no-merges #don't show merge commits
+git log --pretty=oneline(short ,medium,full)
+alias g=git
+git log --all --decorate --oneline --graph
+gir diff everything untaged diffed to the last commit
+git diff --cached 
+git diff --remote
+git stash to save the changed file committed in master
+then git stash pop to see the hidden files
+vinm .gitignore
+touch ashish.exe
+git add .
+git diff --staged
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys (for self connection)
+
+
+mkdir new-project.git
+rm -rf new-project.git
+cd new-project.git
+git init --bare(remote server)
+52.221.180.43
+
+git count-objects
+git count-objects -v (can also use -vH to see the kb )
+git fsck used to check the internal database for problems or inconsistencies.
+git reflog shows you all the commits that your HEAD has been through
+git filter-branch --tree-filter 'rm -f test1.txt' HEAD
+
+
+
+
+
+
